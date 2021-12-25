@@ -1,0 +1,692 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.main{
+    display: block;
+}
+.content{
+    display: block;
+}
+.Header{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    display: block;
+}
+.container{
+    width: 80%;
+    height: 800px;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom : 3px solid rgb(224, 224, 224);
+}
+.list-big{
+    border-right: 2px solid rgb(224, 224, 224);
+    width: 14%;
+    height: 90px;
+}
+.logo{
+    width: 13%px;
+    height: 70px;
+}
+.list-small{
+    border-right: 2px solid rgb(224, 224, 224);
+    width: 7%;
+    height: 90px;
+}
+.rus{
+    width: 45px;
+    height: 25px;
+    background-color: green;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rus-text{
+    color:rgb(255, 255, 255);
+}
+.list-normall{
+    border-right: 2px solid rgb(224, 224, 224);
+    width: 10%;
+    height: 90px;
+}
+.center-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    padding-right: 30px;
+}
+.list-small i{
+    font-size: 30px;
+}
+.buton-menu{
+    width: 95%;
+    height: 60px;
+}
+.buton-menu{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+}
+.maistral-online{
+    display: flex;
+    flex-direction: column;
+}
+.kalendar{
+    background-color: rgb(255, 79, 79);
+    margin-left: 5px;
+    width: 65px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    background-color: rgb(105, 255, 79);
+    margin-left: 10px;
+    width: 65px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-none-border{
+    width: 13.5%;
+    height: 90px;
+}
+.navigation {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+ ul li{
+    display: inline;
+}
+  
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+}
+.conteiner-iner{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.first-part{
+    width: 100%;
+    height: 500px;
+    background: url(./img/maxresdefault\ \(1\)\ 2.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    color: rgb(255, 255, 255);
+}
+.button-price{
+    width: 15%;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.button-podrobnee{
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    background: linear-gradient( rgba(61, 61, 61, 0.8), rgba(0, 0, 0, 0.5) )
+}
+.big-text{
+    font-size: 80px;
+}
+.second-part{
+    width: 100%;
+    height: 500px;
+}
+.bloack-one{
+    width: 60%;
+    height: 500px;
+    padding-top: 1%;
+}
+.bloack-two{
+    width: 30%;
+    height: 500px;
+    padding-top: 1%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-top: 3%;
+}
+.button-black{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 129, 129);
+}
+.button-white{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.info{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    align-items: center;
+
+}
+.viget{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1.2px dashed #969696;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.favorit-hotel{
+    width: 100%;
+    height: 650px;  
+    display: flex;
+    justify-content: center;
+}
+.container-text{
+    width: 80%;
+    height: 100px;
+}
+.images{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.image-first{
+    width: 33%;
+    height: 400px;
+    background: url(./img/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd\ 1.png) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.image-second{
+    width: 33%;
+    height: 400px;
+    background: url(./img/276398231\ 2.png) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.image-third{
+    width: 33%;
+    height: 400px;
+    background: url(./img/c41c4172\ 1.png) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.hover-text {
+    margin: 0 auto;
+    display: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    line-height: 400px;
+    text-align: center;
+    color: #fff;
+    animation: fade .5s linear forwards;
+  }
+@keyframes image {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.image:hover p {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }  
+.up-part{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.circles{
+    width: 9%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grey-crcle{
+    border: 1px solid grey;
+}
+.front-line{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-white-small{
+    width: 10%;
+    height: 50px;
+    border: 2px solid rgb(141, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 100%;
+}
+
+.actual-tur{
+    width: 100%;
+    height: 900px;  
+    display: flex;
+    justify-content: center;
+}
+.front-line-big{
+    width: 45%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-content{
+    width: 35%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-text-content{
+    font-size: 40px;
+}
+.p-text{
+    text-decoration: none;
+    font-size: 19px;
+}
+.thee-blocks{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.bloack{
+    width: 33%;
+    height: 600px;
+    background-color: rgb(245, 244, 244);
+}
+.up-bloack{
+    width: 100%;
+    height: 300px;
+    background: url(./img/mandarina\ 2.png) no-repeat;
+    background-size: cover;
+}
+.image1{
+    background: url(./img/mandarina\ 2.png) no-repeat;
+    background-size: cover;
+}
+.image2{
+    background: url(./img/Mask\ Group.png) no-repeat;
+    background-size: cover;
+}
+.image3{
+    background: url(./img/276398231\ 2.png) no-repeat;
+    background-size: cover;
+}
+.margin-h{
+    margin-bottom: 50px;
+}
+.text{
+    padding: 0 auto;
+    width: 90%;
+    height: 300px;
+}
+.up-text{
+    width: 90%;
+    height: 150px;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+.down-bloack{
+    width: 90%;
+    height: 150x;
+    display: flex;
+    justify-content: space-around;
+
+}
+.red-text{
+    color: red;
+}
+
+.survey{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.container-survey{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(245, 244, 244);
+    border-top: 3px solid grey;
+}
+
+
+
+.footer{
+    display: block;
+}
+.image-div{
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+    background: url(./img/GettyImages-685890576-2200x880\ 1.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-last-image{
+    width: 40%;
+    height: 100px;
+}
+.center-footer{
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 1300px;
+}
+.white-end-bloack{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.white-bloack{
+    width: 80%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    bottom: 100px;
+    display: flex;
+    justify-content: stretch;
+}
+.thee-bloacks-end{
+    width: 50%;
+    height: 600px;
+}
+.bloack-small-end{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-end-list{
+    width: 85%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viget-end{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1.2px dashed #969696;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end-footer{
+    width: 100%;
+    margin-top: 100px;
+}
+.up-ef{
+    width: 100%;
+    height: 200px;
+    background: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner-up-ef{
+    width: 80%;
+    height: 300px;
+}
+.fifteen-blocks{
+    display: flex;
+    justify-content: stretch;
+}
+.fifteen-block{
+    width: 50%;
+    height: 100px;
+}
+.input{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+input[type="text"]{
+    width: 70%;
+    height: 50px;
+    margin-top: 50px;
+    border: 2px solid rgb(212, 211, 211);
+    color: rgb(212, 211, 211);
+}
+.sumbit{
+    width: 30%;
+    height: 50px;
+    background-color: rgb(221, 46, 46);
+    color: white;
+    border: none;
+}
+.down-ef{
+    width: 100%;
+    height: 400px;
+    background: url(./img/SloveniaHeader\ 3.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.conteiner-down-ef{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.bloacks-small{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bloack-small{
+    width: 15%;
+    height: 150px;
+    display: block;
+}
+.img-bloack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-image{
+    width: 80%;
+    height: 100px;
+}
+.grey-text{
+    font-size: 15px;
+    color: grey;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:414px){
+    .Header{
+        width: 100%;
+        height: 700px;
+    }    
+    .navigation{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .up-ef{
+        display: none;
+    }
+    .img-image{
+        display: none;
+    }
+    .big-text{
+        font-size: 45px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px ;
+    }
+    p{
+        font-size: 10px;
+    }
+    .first-part{
+        height: 600px;
+    }
+    .button-price{
+        height: 50px;
+        width: 70%;
+    }
+    .button-podrobnee{
+        height: 50px;
+        width: 50%;
+    }
+    .bloack-two{
+        display: none;
+    }
+    .second-part{
+        display: none;
+    }
+    .favorit-hotel{
+        display: none;
+    }
+    .big-text-content{
+        font-size: 30px;
+    }
+    .front-line-big{
+        display: none;
+    }
+    .button-white-small{
+        display: none;
+    }
+    .actual-tur{
+        width: 100%;
+        height: 1800px;  
+    }
+    .content{
+        height: 2100px;
+    }
+    .thee-blocks{
+        width: 100%;
+        height: 1800px;
+        display: block;
+    }
+    .bloack{
+        width: 100%;
+        height: 600px;
+    }
+    .image-div{
+        display: none;
+    }
+    .viget-end{
+        display: none;
+    }
+    .footer{
+        height: 1000px;
+        background-color: rgb(235, 235, 235);
+    }
+    .center-footer{
+        height: 1000px;
+    }
+    .white-end-bloack{
+        height: 600px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .end-footer{
+        height: 200px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+}    
